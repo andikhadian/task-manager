@@ -4,7 +4,7 @@
       <div class="p-6 lg:p-8">
         <div class="flex items-center justify-between">
           <div class="w-16 h-16 flex justify-center items-center text-white bg-gray-light rounded-2xl">
-            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            <img class="w-8 h-8" src="@/assets/images/menu.svg" alt="">
           </div>
           <div class="flex items-center">
             <div class="text-right text-white mr-4">
@@ -12,7 +12,7 @@
               <p class="text-secondary-text text-sm opacity-50">Roy invite you on project</p>
             </div>
             <div class="w-10 h-10 text-white">
-              <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+              <img class="w-8 h-8" src="@/assets/images/notification.svg" alt="">
             </div>
           </div>
         </div>
@@ -165,7 +165,7 @@
               <div class="bg-waiting md:bg-waiting-light text-waiting md:py-2 md:px-4 w-4 h-4 md:w-28 md:h-auto text-center rounded-full text-xs font-bold"><p class="hidden md:block">Waiting</p></div>
             </div>
           </div>
-          <div class="float-right w-16 h-16 flex justify-center items-center text-white bg-pink rounded-2xl absolute bottom-8 right-8">
+          <div class="btn-add float-right w-16 h-16 flex justify-center items-center text-white bg-pink rounded-2xl absolute bottom-8 right-8">
             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
           </div>
         </div>

@@ -25,3 +25,7 @@
 .plant-app {
     background: linear-gradient(136.61deg, #35ABFF 0%, #55FFCA 109.75%);
 }
+
+.btn-add {
+    box-shadow: 5px 10px 20px rgba(252, 89, 173, 0.25);
+}
