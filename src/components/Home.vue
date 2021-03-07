@@ -7,7 +7,7 @@
             <img class="w-8 h-8" src="@/assets/images/menu.svg" alt="">
           </div>
           <div class="flex items-center">
-            <div class="text-right text-white mr-4">
+            <div class="text-right text-white mr-4 hidden sm:block">
               <p>Roy Yand</p>
               <p class="text-secondary-text text-sm opacity-50">Roy invite you on project</p>
             </div>
