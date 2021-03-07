@@ -26,24 +26,46 @@
           <p class="text-md text-white leading-6 mt-6">Project <span class="opacity-50 text-sm">(11)</span></p>
           <div class="grid  grid-cols-2 sm:grid-cols-3 gap-x-6 lg:gap-x-20 gap-y-10 mt-6">
             <div>
-              <div class="bg-gray-light w-100 h-36 md:w-46 md:h-46 lg:w-32 lg:h-32 rounded-3xl"></div>
+              <div class="pixel-website bg-gray-light w-100 h-36 md:w-46 md:h-46 lg:w-32 lg:h-32 rounded-3xl flex items-center justify-center relative overflow-hidden">
+                <img class="absolute top-0 right-0" src="@/assets/images/Vector1a.svg" alt="">
+                <img class="absolute bottom-0 left-0 z-0" src="@/assets/images/Vector1b.svg" alt="">
+                <p class="text-4xl text-white font-bold z-10">PW</p>
+              </div>
               <p class="text-sm text-white opacity-75 mt-2">Pixel Website</p>
             </div>
             <div>
-              <div class="bg-gray-light w-100 h-36 md:w-46 md:h-46 lg:w-32 lg:h-32 rounded-3xl"></div>
-              <p class="text-sm text-white opacity-75 mt-2">Pixel Website</p>
+              <div class="insurance-app bg-gray-light w-100 h-36 md:w-46 md:h-46 lg:w-32 lg:h-32 rounded-3xl flex items-center justify-center relative overflow-hidden">
+                <img class="absolute bottom-0 left-0" src="@/assets/images/Vector2a.svg" alt="">
+                <img class="absolute top-0 right-0 z-0" src="@/assets/images/Vector2b.svg" alt="">
+                <p class="text-4xl text-white font-bold z-10">IA</p>
+              </div>
+              <p class="text-sm text-white opacity-75 mt-2">Insurance App</p>
+            </div>
+            <div class="relative">
+              <div class="travel-app bg-gray-light w-100 h-36 md:w-46 md:h-46 lg:w-32 lg:h-32 rounded-3xl flex items-center justify-center relative overflow-hidden">
+                <img class="absolute bottom-0 left-0" src="@/assets/images/Vector3a.svg" alt="">
+                <img class="absolute top-6 right-0 z-0" src="@/assets/images/Vector3b.svg" alt="">
+                <p class="text-4xl text-white font-bold z-10">TA</p>
+              </div>
+              <div class="w-5 h-5 bg-white border-gray-dark border-2 rounded-full absolute top-0 -right-1"></div>
+              <p class="text-sm text-white opacity-75 mt-2">Travel App</p>
+            </div>
+            <div class="relative">
+              <div class="landing-page bg-gray-light w-100 h-36 md:w-46 md:h-46 lg:w-32 lg:h-32 rounded-3xl flex items-center justify-center relative overflow-hidden">
+                <img class="absolute top-0 left-0" src="@/assets/images/Vector4a.svg" alt="">
+                <img class="absolute bottom-0 right-0 z-0" src="@/assets/images/Vector4b.svg" alt="">
+                <p class="text-4xl text-white font-bold z-10">LP</p>
+              </div>
+              <div class="w-5 h-5 bg-white border-gray-dark border-2 rounded-full absolute top-0 -right-1"></div>
+              <p class="text-sm text-white opacity-75 mt-2">Landing Page</p>
             </div>
             <div>
-              <div class="bg-gray-light w-100 h-36 md:w-46 md:h-46 lg:w-32 lg:h-32 rounded-3xl"></div>
-              <p class="text-sm text-white opacity-75 mt-2">Pixel Website</p>
-            </div>
-            <div>
-              <div class="bg-gray-light w-100 h-36 md:w-46 md:h-46 lg:w-32 lg:h-32 rounded-3xl"></div>
-              <p class="text-sm text-white opacity-75 mt-2">Pixel Website</p>
-            </div>
-            <div>
-              <div class="bg-gray-light w-100 h-36 md:w-46 md:h-46 lg:w-32 lg:h-32 rounded-3xl"></div>
-              <p class="text-sm text-white opacity-75 mt-2">Pixel Website</p>
+              <div class="plant-app bg-gray-light w-100 h-36 md:w-46 md:h-46 lg:w-32 lg:h-32 rounded-3xl flex items-center justify-center relative overflow-hidden">
+                <img class="absolute top-0 left-0" src="@/assets/images/Vector5a.svg" alt="">
+                <img class="absolute bottom-0 right-0 z-0" src="@/assets/images/Vector5b.svg" alt="">
+                <p class="text-4xl text-white font-bold z-10">PA</p>
+              </div>
+              <p class="text-sm text-white opacity-75 mt-2">Plant App</p>
             </div>
             <div class="bg-gray-light w-100 h-36 md:w-46 md:h-46 lg:w-32 lg:h-32 rounded-3xl flex items-center justify-center">
               <p class="text-4xl text-white opacity-75">6+</p>
@@ -53,12 +75,30 @@
       </div>
       <div class="p-8 bg-white lg:rounded-2xl lg:m-8 h-screen lg:h-auto relative">
         <div class="overflow-y-auto card-container">
-          <div class="flex justify-between items-start">
+          <div class="flex flex-col sm:flex-row justify-between items-start relative">
             <div>
               <p class="text-3xl text-gray-dark font-bold">Pixel Website</p>
-              <p class="text-sm text-gray-light opacity-50 leading-6 mt-1">In this project, I need to redesign web pixel com <br>become clean website</p>
+              <p class="text-sm text-gray-light opacity-50 leading-6 mt-3">In this project, I need to redesign web pixel com <br>become clean website</p>
             </div>
-            <svg class="w-8 h-8 text-gray-dark font-bold block md:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            <svg class="w-8 h-8 text-gray-dark font-bold block sm:hidden absolute top-0 right-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            <div class="mt-4 sm:mt-0">
+              <div class="flex items-center relative">
+                <div class="w-12 h-12 rounded-full bg-cream border-white border-2 z-0 overflow-hidden">
+                  <img src="@/assets/images/profile1.png" alt="">
+                </div>
+                <div class="w-12 h-12 rounded-full bg-pink border-white border-2 z-10 -ml-2 overflow-hidden">
+                  
+                  <img src="@/assets/images/profile2.png" alt="">
+                </div>
+                <div class="w-12 h-12 rounded-full bg-orange border-white border-2 z-20 -ml-2 overflow-hidden">
+                  <img src="@/assets/images/profile3.png" alt="">
+                </div>
+                <div class="ml-2">
+                  <svg class="w-8 h-8 text-gray-light opacity-30" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+              </div>
+              <p class="text-sm text-gray-dark text-left sm:text-right font-light mt-2">Pixel Studio</p>
+            </div>
           </div>
           <div class="mt-7">
             <div class="flex justify-between">

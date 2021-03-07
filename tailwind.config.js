@@ -10,6 +10,7 @@ const colors = {
   "waiting": "#D5D5D5",
   "waiting-light": "#F9F9F9",
   "pink": "#FC59AC",
+  "cream": "#F5D3B3",
   "secondary-text": "#E0E0E0",
   "white": "#FFFFFF",
 };

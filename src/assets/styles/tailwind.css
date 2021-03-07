@@ -5,3 +5,23 @@
 .card-container {
     /* height: 95%; */
 }
+
+.pixel-website {
+    background: linear-gradient(137.74deg, #FFEB27 -12.8%, #FF146A 100%);
+}
+
+.insurance-app {
+    background: linear-gradient(137.62deg, #9164FF 2.7%, #8BFFF4 107.37%);
+}
+
+.travel-app {
+    background: linear-gradient(140.57deg, #FF9494 0%, #EE64F6 105.66%);
+}
+
+.landing-page {
+    background: linear-gradient(135.79deg, #E5FFB4 3.42%, #99E2FA 100%);
+}
+
+.plant-app {
+    background: linear-gradient(136.61deg, #35ABFF 0%, #55FFCA 109.75%);
+}
